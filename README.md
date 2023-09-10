@@ -1,3 +1,11 @@
+# Edits from Charlie for Data 100
+Run script: `python run.py fa23-config-copy.py data/responses_clean.csv`
+Original data from `data/responses.csv`
+Outputs from running the algorithm `out-private-output.csv`
+Post processed result `out-private_post_process_FINAL.csv`
+
+
+
 # Group Matcher
 Repo dedicated to hosting all code and files associated with grouping students into groups based on configurable constraints and CSV format.
 
