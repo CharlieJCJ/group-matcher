@@ -1,11 +1,13 @@
 # Edits from Charlie for Data 100
+Note: corresponding datasets and results are in private folders, access via request.
+
 Run script: `python run.py fa23-config-copy.py data/responses_clean.csv`
 
-Original data from `data/responses.csv`
+Original data from `./data/responses.csv`
 
-Outputs from running the algorithm `out-private-output.csv`
+Outputs from running the algorithm `./out-private-output.csv`
 
-Post processed result `out-private_post_process_FINAL.csv`
+Post processed result `./out-private_post_process_FINAL.csv`
 
 
 
