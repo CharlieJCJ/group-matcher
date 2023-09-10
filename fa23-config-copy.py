@@ -46,11 +46,11 @@ def race_transformer(race):
         return 3
     elif "Native Hawaiian / Pacific Islander" in race:
         return 4
-    elif "Multiple races" in race:
-        return 5
     elif "Asian / Asian American" in race:
-        return 6
+        return 5
     elif "White" in race:
+        return 6
+    elif "Multiple races" in race:
         return 7
     else:
         return 8
@@ -71,21 +71,25 @@ def email_transformer(email):
     return email.lower().strip()
 
 
+# Partition into discrete bins
 def course_transformer(course):
-    if ("Math 1" in course):
-        return 1
-    elif ("Math 5" in course):
-        return 2
-    elif ("Physics 7" in course):
-        return 3
-    elif ("CS 70" in course):
-        return 4
-    elif ("CS 61C" in course):
-        return 5
-    elif ("CS 61" in course):
-        return 6
+    for item in course:
+        if ("Math 1" in item): # math ppl
+            return 1
+        elif ("Math 5" in item):
+            return 2
+        elif ("Data 14" in item):
+            return 3
+        elif ("CS 1" in item):
+            return 4
+        elif ("CS 70" in item):
+            return 5
+        elif ("CS 61C" in item):
+            return 6
+        elif ("CS 61" in item): # CS 61B
+            return 7
     else:
-        return 4
+        return 5
     
 def location_transformer(place):
     if ("Unit 1/Unit 2/Martinez" in place):
@@ -219,7 +223,7 @@ ROW_CONFIG = Row(
         ),
         Column("Which discussion section times",
                "disc_times_options",
-               "checkbox",
+               "radio",
                is_optional=False,
                # transformer=discussion_transformer, # NOTE: Uncomment this line if you'd like to bucket discussion times
                ),
@@ -271,26 +275,26 @@ ROW_CONFIG = Row(
             is_optional=True,
             transformer=lambda x: x == "Yes",
         ),
-        Column(                       # TODO: comment in this Column if you wish to pregroup students
-            "pregroup_partner",
-            "pregroup_partner",
-            "text",
-            is_optional=True,
-            transformer=email_transformer,
-        ),
-        Column(                       # TODO: comment in this Column if you wish to pregroup students
-            "pregroup_partner2",
-            "pregroup_partner2",
-            "text",
-            is_optional=True,
-            transformer=email_transformer,
-        ),
+        # Column(                       # TODO: comment in this Column if you wish to pregroup students
+        #     "pregroup_partner",
+        #     "pregroup_partner",
+        #     "text",
+        #     is_optional=True,
+        #     transformer=email_transformer,
+        # ),
+        # Column(                       # TODO: comment in this Column if you wish to pregroup students
+        #     "pregroup_partner2",
+        #     "pregroup_partner2",
+        #     "text",
+        #     is_optional=True,
+        #     transformer=email_transformer,
+        # ),
     ]
 )
 
 CONSTRAINTS = {
 
-    "Partition": ["year", "location_options", "hw_start", "interaction_freq", "use_demographic"],
+    "Partition": ["year", "location_options", "disc_times_options", "hw_start", "interaction_freq", "use_demographic"],
     "Existing": {
         "type": "explicit_keys",
         "flag": "is_existing",
@@ -306,11 +310,11 @@ CONSTRAINTS = {
     ],  # column ID's for features followed by weights
 }
 
-MIN_GROUP_SIZE = 3
-MAX_GROUP_SIZE = 7
+MIN_GROUP_SIZE = 4
+MAX_GROUP_SIZE = 6
 MIN_PARTITION_SIZE = 4
 PREGROUP_PARTNERS = True
-ENFORCE_PREGROUP = True
+ENFORCE_PREGROUP = False
 
 #####
 # Below this point are pre- and post-processing functions for the grouping algorithm.
@@ -674,7 +678,7 @@ def post_processing(matches: list):
         print("******these are leader details*******")
         total_leaders = 0
         found_leader = False
-        print(match.node.can_split)
+        # print(match.node.can_split)
         for person in match.node.props:
             leader = person["leader"]
             if leader:
@@ -792,7 +796,10 @@ def post_processing(matches: list):
                     "race": person["race"],
                     "gender": person["gender"],
                     "had existing": person["is_existing"],
+                    "section": person["disc_times_options"],
+                    "taking": person["taking"],
                     "is_leader": person["leader"],
+                    "interaction_freq": person["interaction_freq"],
                     "location": person["location_options"],
                     "pregroup_partner": person.get("pregroup_partner", "N/A"),
                     "pregroup_partner2": person.get("pregroup_partner2", "N/A")
