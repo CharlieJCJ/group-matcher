@@ -1,0 +1,52 @@
+group_num,email,sid,first,last,incoming_partners,outgoing_partners,year,freq,race,gender,had existing,section,taking,is_leader,location,pregroup_partner,pregroup_partner2
+0,m.montes@berkeley.edu,3037203989,Micaela,Montes,"['maria.romano@berkeley.edu', 'm.montes@berkeley.edu']",['maria.romano@berkeley.edu'],2,Once or twice a week,1,1,TRUE,"Tuesday, 2-3:30 PM, (TA: Matthew Shen)",2,TRUE,5,N/A,N/A
+0,maria.romano@berkeley.edu,3036523218,Maria,Romano,"['maria.romano@berkeley.edu', 'm.montes@berkeley.edu', 'jocelyn.galvan@berkeley.edu']",['m.montes@berkeley.edu'],2,Once or twice a week,1,1,TRUE,"Tuesday, 2-3:30 PM, (TA: Matthew Shen)",6,TRUE,5,N/A,N/A
+0,jocelyn.galvan@berkeley.edu,3036928024,Jocelyn,Galvan,['jocelyn.galvan@berkeley.edu'],"['maria.romano@berkeley.edu', 'lmorenoromero08@berkeley.edu (this person did not fill out the form, indicated they wanted no study group, indicated they wanted a study group but did not have an existing one, or this is an incorrect email (check for typos)!)']",2,Once or twice a week,1,1,TRUE,"Tuesday, 2-3:30 PM, (TA: Matthew Shen)",2,TRUE,5,N/A,N/A
+1,daniela_vargas@berkeley.edu,3036619590,Daniela,Vargas,"['daniela_vargas@berkeley.edu', 'giovannag27@berkeley.edu', 'stephanycasillas@berkeley.edu']","['giovannag27@berkeley.edu', 'stephanycasillas@berkeley.edu']",2,Once or twice a week,1,1,TRUE,"Wednesday, 11-12 PM, (TA: Charlie Ji)",5,FALSE,5,N/A,N/A
+1,stephanycasillas@berkeley.edu,3036904765,Stephany,Casillas,"['daniela_vargas@berkeley.edu', 'giovannag27@berkeley.edu', 'stephanycasillas@berkeley.edu']","['giovannag27@berkeley.edu', 'daniela_vargas@berkeley.edu']",2,Once or twice a week,1,1,TRUE,"Wednesday, 11-12 PM, (TA: Charlie Ji)",5,FALSE,5,N/A,N/A
+1,giovannag27@berkeley.edu,3037233187,Giovanna,Gonzalez Rojas,"['daniela_vargas@berkeley.edu', 'giovannag27@berkeley.edu', 'stephanycasillas@berkeley.edu']","['stephanycasillas@berkeley.edu', 'daniela_vargas@berkeley.edu']",2,At most once a week,1,1,TRUE,"Tuesday, 2-3:30 PM, (TA: Matthew Shen)",5,TRUE,9,N/A,N/A
+2,fernando.rendon@berkeley.edu,3038272161,Fernando,Rendon,"['kicastro@berkeley.edu', 'fernando.rendon@berkeley.edu']",['kicastro@berkeley.edu'],3,More than twice a week,1,2,TRUE,"Tuesday, 12:30-2 PM, (TA: Matthew Shen)",5,TRUE,5,N/A,N/A
+2,kicastro@berkeley.edu,3037403381,Karla,Castro Rosales,"['kicastro@berkeley.edu', 'fernando.rendon@berkeley.edu']",['fernando.rendon@berkeley.edu'],2,More than twice a week,1,1,TRUE,"Tuesday, 12:30-2 PM, (TA: Matthew Shen)",2,FALSE,5,N/A,N/A
+3,cemac@berkeley.edu,3036588816,Celina,Mac,"['fgordon@berkeley.edu', 'cemac@berkeley.edu']",['fgordon@berkeley.edu'],2,Once or twice a week,5,1,TRUE,"Tuesday, 2-3:30 PM, (TA: Matthew Shen)",3,TRUE,4,N/A,N/A
+3,fgordon@berkeley.edu,3036612700,Fatima,Gordon,"['fgordon@berkeley.edu', 'cemac@berkeley.edu']","['ivy.lorona@berkeley.edu (this person did not fill out the form, indicated they wanted no study group, indicated they wanted a study group but did not have an existing one, or this is an incorrect email (check for typos)!)', 'cemac@berkeley.edu', 'yelbgal@berkeley.edu (this person did not fill out the form, indicated they wanted no study group, indicated they wanted a study group but did not have an existing one, or this is an incorrect email (check for typos)!)']",2,Once or twice a week,3,1,TRUE,"Tuesday, 2-3:30 PM, (TA: Matthew Shen)",2,TRUE,1,N/A,N/A
+4,mariajosegarcia@berkeley.edu,30379000868,Mariajose,Garcia Morones,N/A,N/A,2,Once or twice a week,1,1,FALSE,"Tuesday, 12:30-2 PM, (TA: Matthew Shen)",3,FALSE,5,N/A,N/A
+4,hector985mateo@berkeley.edu,3034873596,Hector,Mateo,N/A,N/A,2,Once or twice a week,1,2,FALSE,"Tuesday, 12:30-2 PM, (TA: Matthew Shen)",5,FALSE,5,N/A,N/A
+4,nicholasgamboa@berkeley.edu,3037324845,Nicholas,Gamboa,N/A,N/A,2,Once or twice a week,1,2,FALSE,"Tuesday, 12:30-2 PM, (TA: Matthew Shen)",2,FALSE,5,N/A,N/A
+4,andrewm31033@berkeley.edu,3034899674,Andres,Morales,N/A,N/A,2,Once or twice a week,1,0,FALSE,"Tuesday, 12:30-2 PM, (TA: Matthew Shen)",3,FALSE,5,N/A,N/A
+4,jadoo@berkeley.edu,3037376860,Kartikeya,Sharma,N/A,N/A,2,Once or twice a week,5,2,FALSE,"Tuesday, 12:30-2 PM, (TA: Matthew Shen)",2,TRUE,5,N/A,N/A
+5,kunyuliu@berkeley.edu,3036045401,Jade,Chen,N/A,N/A,2,At most once a week,5,1,FALSE,"Wednesday, 11-12 PM, (TA: Charlie Ji)",3,FALSE,5,N/A,N/A
+5,orianna.w.jia@berkeley.edu,3033738478,Orianna,Jia,N/A,N/A,2,Once or twice a week,5,1,FALSE,"Wednesday, 11-12 PM, (TA: Charlie Ji)",5,TRUE,5,N/A,N/A
+5,mayragg3133@berkeley.edu,3037159033,Mayra,Gonzalez-Gomez,N/A,N/A,2,Once or twice a week,1,1,FALSE,"Wednesday, 11-12 PM, (TA: Charlie Ji)",2,TRUE,5,N/A,N/A
+5,daguan@berkeley.edu,3035573722,David,Guan,N/A,N/A,2,Once or twice a week,5,2,FALSE,"Wednesday, 11-12 PM, (TA: Charlie Ji)",5,FALSE,5,N/A,N/A
+5,alex9102017@berkeley.edu,3037320191,Alejandro,Rodas,N/A,N/A,2,Once or twice a week,1,2,FALSE,"Wednesday, 11-12 PM, (TA: Charlie Ji)",7,FALSE,5,N/A,N/A
+6,jmshi168@berkeley.edu,3036708718,Jenny,Shi,N/A,N/A,2,Once or twice a week,5,1,FALSE,"Tuesday, 2-3:30 PM, (TA: Matthew Shen)",1,FALSE,5,N/A,N/A
+6,aareenkaler@berkeley.edu,3037139401,Aareen,Kaler,N/A,N/A,2,Once or twice a week,5,1,FALSE,"Tuesday, 12:30-2 PM, (TA: Matthew Shen)",7,FALSE,5,N/A,N/A
+6,anahervega@berkeley.edu,3036007285,Ana,H. Vega,N/A,N/A,2,Once or twice a week,1,1,FALSE,"Tuesday, 2-3:30 PM, (TA: Matthew Shen)",5,TRUE,5,N/A,N/A
+6,hyunsang237@berkeley.edu,3034848337,Harry,Cho,N/A,N/A,2,More than twice a week,5,2,FALSE,"Tuesday, 2-3:30 PM, (TA: Matthew Shen)",2,FALSE,5,N/A,N/A
+6,jm.garcia@berkeley.edu,3036190416,JohnMatthew,Garcia,N/A,N/A,3,Once or twice a week,1,2,FALSE,"Tuesday, 12:30-2 PM, (TA: Matthew Shen)",3,FALSE,9,N/A,N/A
+7,cassieno@berkeley.edu,3038410559,Cassie,No,N/A,N/A,1,Once or twice a week,5,1,FALSE,"Tuesday, 2-3:30 PM, (TA: Matthew Shen)",7,FALSE,5,N/A,N/A
+7,jademon@berkeley.edu,3037629402,Jade,Mon,N/A,N/A,1,Once or twice a week,5,1,FALSE,"Tuesday, 2-3:30 PM, (TA: Matthew Shen)",7,TRUE,5,N/A,N/A
+7,breannacabusao@berkeley.edu,3037830135,Breanna,Cabusao,N/A,N/A,1,Once or twice a week,5,1,FALSE,"Wednesday, 11-12 PM, (TA: Charlie Ji)",2,FALSE,5,N/A,N/A
+7,vicky.huang@berkeley.edu,3037997263,Vicky,Huang,N/A,N/A,1,At most once a week,5,1,FALSE,"Wednesday, 11-12 PM, (TA: Charlie Ji)",7,FALSE,5,N/A,N/A
+7,sofia.haile@berkeley.edu,3032439229,Sofia,Haile,N/A,N/A,1,Once or twice a week,7,1,FALSE,"Tuesday, 12:30-2 PM, (TA: Matthew Shen)",5,FALSE,5,N/A,N/A
+8,diegoo@berkeley.edu,3036815136,Diego,Hernandez,N/A,N/A,3,Once or twice a week,1,2,FALSE,"Tuesday, 12:30-2 PM, (TA: Matthew Shen)",5,FALSE,5,N/A,N/A
+8,gabrielmora@berkeley.edu,3038028476,Gabriel,Mora,N/A,N/A,3,At most once a week,1,2,FALSE,"Wednesday, 11-12 PM, (TA: Charlie Ji)",7,FALSE,5,N/A,N/A
+8,dgonzalez03@berkeley.edu,3037451430,David,Gonzalez,N/A,N/A,3,Once or twice a week,1,2,FALSE,"Tuesday, 2-3:30 PM, (TA: Matthew Shen)",5,FALSE,5,N/A,N/A
+8,nataliegonzalez@berkeley.edu,3037884358,Natalie,Gonzalez,N/A,N/A,3,Once or twice a week,1,0,FALSE,"Wednesday, 11-12 PM, (TA: Charlie Ji)",7,FALSE,5,N/A,N/A
+8,ktesfay@berkeley.edu,3037897540,Koby,Tesfay,N/A,N/A,3,Once or twice a week,0,2,FALSE,"Tuesday, 12:30-2 PM, (TA: Matthew Shen)",7,FALSE,5,N/A,N/A
+8,yirme.allen@berkeley.edu,3036617302,Yirmeyahuw,Allen,N/A,N/A,2,Once or twice a week,0,2,FALSE,"Tuesday, 2-3:30 PM, (TA: Matthew Shen)",2,FALSE,5,N/A,N/A
+9,cmgoulet@berkeley.edu,3036974018,Crystal,Goulet,N/A,N/A,3,More than twice a week,6,1,FALSE,"Tuesday, 2-3:30 PM, (TA: Matthew Shen)",5,TRUE,9,N/A,N/A
+9,jnie1128@berkeley.edu,3037903065,Jenny,Nie,N/A,N/A,3,Once or twice a week,5,1,FALSE,"Wednesday, 11-12 PM, (TA: Charlie Ji)",3,FALSE,9,N/A,N/A
+9,fluker_12838@berkeley.edu,3038112664,Frederia,Fluker,N/A,N/A,3,Once or twice a week,0,1,FALSE,"Wednesday, 11-12 PM, (TA: Charlie Ji)",7,FALSE,9,N/A,N/A
+9,chrisjd409@berkeley.edu,3038228260,Christopher,Dhong,N/A,N/A,3,Once or twice a week,5,2,FALSE,"Tuesday, 2-3:30 PM, (TA: Matthew Shen)",5,FALSE,9,N/A,N/A
+10,jinnlk@berkeley.edu,3037985641,Jinn,Lim,N/A,N/A,1,At most once a week,5,2,FALSE,"Tuesday, 12:30-2 PM, (TA: Matthew Shen)",7,FALSE,6,N/A,N/A
+11,aav20@berkeley.edu,3037465522,Angelica,Angeles Vasquez,N/A,N/A,3,Once or twice a week,1,1,FALSE,"Tuesday, 2-3:30 PM, (TA: Matthew Shen)",7,FALSE,1,N/A,N/A
+11,luzhrdz@berkeley.edu,3038115641,Luz,Hernandez,N/A,N/A,3,More than twice a week,1,1,FALSE,"Wednesday, 11-12 PM, (TA: Charlie Ji)",7,FALSE,2,N/A,N/A
+11,lin1203@berkeley.edu,3036754615,Caitlyn,Cai,N/A,N/A,3,Once or twice a week,5,1,FALSE,"Tuesday, 12:30-2 PM, (TA: Matthew Shen)",4,FALSE,6,N/A,N/A
+12,giselle_gax@berkeley.edu,3036113781,Giselle,Gaxiola,N/A,N/A,2,Once or twice a week,1,1,FALSE,"Wednesday, 11-12 PM, (TA: Charlie Ji)",5,FALSE,6,N/A,N/A
+12,contrerasdulce@berkeley.edu,3035907198,Dulce,Contreras,N/A,N/A,2,Once or twice a week,1,1,FALSE,"Tuesday, 2-3:30 PM, (TA: Matthew Shen)",5,FALSE,2,N/A,N/A
+12,amina.abil@berkeley.edu,3037370619,Amina,Abil,N/A,N/A,2,More than twice a week,5,1,FALSE,"Tuesday, 2-3:30 PM, (TA: Matthew Shen)",7,FALSE,9,N/A,N/A
+12,alexiscoxdiaz@berkeley.edu,3035826975,Alexis,Cox-Diaz,N/A,N/A,2,Once or twice a week,1,2,FALSE,"Wednesday, 11-12 PM, (TA: Charlie Ji)",2,TRUE,1,N/A,N/A
+12,david_sanchez@berkeley.edu,3036199191,DAVID,SANCHEZ,N/A,N/A,2,Once or twice a week,1,2,FALSE,"Wednesday, 11-12 PM, (TA: Charlie Ji)",2,FALSE,9,N/A,N/A
+14,alyssanou@berkeley.edu,3034789811,Alyssa,Nou,['alyssanou@berkeley.edu'],"['eredding02@berkeley.edu (this person did not fill out the form, indicated they wanted no study group, indicated they wanted a study group but did not have an existing one, or this is an incorrect email (check for typos)!)']",2,Once or twice a week,5,0,TRUE,"Tuesday, 2-3:30 PM, (TA: Matthew Shen)",3,FALSE,5,N/A,N/A
+14,shinggao@berkeley.edu,3037218562,Shing,Gao,['shinggao@berkeley.edu'],"['dpadaoil@berkeley.edu (this person did not fill out the form, indicated they wanted no study group, indicated they wanted a study group but did not have an existing one, or this is an incorrect email (check for typos)!)']",2,Once or twice a week,,2,TRUE,"Tuesday, 2-3:30 PM, (TA: Matthew Shen)",4,FALSE,6,N/A,N/A
